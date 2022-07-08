@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'production') {
             'frontend', 'build', 'index.html'));
     });
     
-    app.use(express.static(path.join(__dirname, 'frontend/build')))
+    cdapp.use(express.static(path.join(__dirname, 'frontend/build')))
 }
 
 
